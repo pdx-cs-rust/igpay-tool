@@ -1,0 +1,15 @@
+[package]
+name = "igpay-tool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+igpay-atinlay = "0.1"
+
+[lib]
+path = "lib.rs"
+name = "studly_pig"
+
+[[bin]]
+path = "main.rs"
+name = "igpay-tool"
